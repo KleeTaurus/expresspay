@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block content %}
+<div class="page slideIn cell">
+  <div class="hd">
+    <h1 class="page_title">请选择支付方式</h1>
+  </div>
+  <div class="bd">
+    <div class="weui_cells_title">支付渠道</div>
+    <div class="weui_cells weui_cells_radio">
+      <label class="weui_cell weui_check_label" for="x11">
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>微信支付</p>
+        </div>
+        <div class="weui_cell_ft">
+          <input type="radio" class="weui_check" name="radio1" id="x11" checked="checked">
+          <span class="weui_icon_checked"></span>
+        </div>
+      </label>
+
+      <label class="weui_cell weui_check_label" for="x12">
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>支付宝支付</p>
+        </div>
+        <div class="weui_cell_ft">
+          <input type="radio" name="radio1" class="weui_check" id="x12">
+          <span class="weui_icon_checked"></span>
+        </div>
+      </label>
+
+      <label class="weui_cell weui_check_label" for="x13">
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>京东支付</p>
+        </div>
+        <div class="weui_cell_ft">
+          <input type="radio" name="radio1" class="weui_check" id="x13">
+          <span class="weui_icon_checked"></span>
+        </div>
+      </label>
+    </div>
+    <div class="weui_btn_area">
+      <a class="weui_btn weui_btn_primary" href="javascript:" id="showTooltips">确定</a>
+    </div>
+  </div>
+</div>
+{% endblock content %}
