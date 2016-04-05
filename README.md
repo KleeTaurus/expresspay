@@ -1,3 +1,3 @@
-# Expresspay
+# ExpressPay
 
-Expresspay is an online payment gateway bundled with WeChatPay, Alipay and JDPay.
+ExpressPay is an online payment gateway bundled with WeChatPay, Alipay and JDPay.
